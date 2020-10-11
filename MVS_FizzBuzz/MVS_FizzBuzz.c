@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#define FIZZ "Fizz"
-#define BUZZ "Buzz"
+#include "MVS_FizzBuzz.h"
 
 int main (void) {
     for (int i = 1; i <= 100; i++) {
