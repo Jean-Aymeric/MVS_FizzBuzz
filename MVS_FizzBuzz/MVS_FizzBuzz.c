@@ -25,6 +25,9 @@ DividerMessages* initializeDividerMessage () {
 }
 
 unsigned int addDividerMessage (DividerMessages* dividerMessages, int divider, const char* message) {
+    if (dividerMessages == NULL) {
+        return 0;
+    }
     DividerMessage* newDividerMessage = NULL;
 
     newDividerMessage = malloc (sizeof (DividerMessage));
@@ -35,9 +38,6 @@ unsigned int addDividerMessage (DividerMessages* dividerMessages, int divider, c
     newDividerMessage->message = message;
     newDividerMessage->next = NULL;
 
-    if (dividerMessages == NULL) {
-        return 0;
-    }
     if (dividerMessages->start == NULL) {
         dividerMessages->start = newDividerMessage;
     } else {
