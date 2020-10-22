@@ -71,7 +71,7 @@ unsigned int FizzBuzz () {
             dividerMessage = dividerMessage->next;
         };
         if (!atLeastOneDivider) {
-            printf ("%d", i);
+            printf ("%u", i);
         }
         printf ("\n");
     }
