@@ -18,5 +18,13 @@
     <ClCompile Include="MVS_FizzBuzz.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MVS_FizzBuzz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
