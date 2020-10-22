@@ -1,6 +1,5 @@
 #ifndef MVS_FIZZBUZZ_H
 
-#define FIZZ "Fizz"
-#define BUZZ "Buzz"
+extern unsigned int FizzBuzz ();
 
 #endif // !MVS_FIZZBUZZ_H

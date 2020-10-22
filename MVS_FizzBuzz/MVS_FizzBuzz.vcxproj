@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Main.c" />
     <ClCompile Include="MVS_FizzBuzz.c" />
   </ItemGroup>
   <ItemGroup>
