@@ -1,0 +1,18 @@
+  
+name: cppcheck-action
+on: [push]
+
+jobs:
+  build:
+    name: cppcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: cppcheck
+        uses: deep5050/cppcheck-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+          github_username: "Jean-Aymeric"
+          github_email: "jeanaymeric@gmail.com"
+          commit_msg: "CppCheck"
+          force_language: c
